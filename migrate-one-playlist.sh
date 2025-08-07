@@ -6,7 +6,10 @@ SPOTIFY_PLAYLIST_ID="$1"
 
 # Get the playlist name from list_playlists
 playlist_name=$(python3 -m spotify2ytmusic list_playlists \
-  | awk -v id="$SPOTIFY_PLAYLIST_ID" '$1 == id { $1=""; sub(/^ - /, "", $0); print $0 }' \
+  | awk -v id="$SPOTIFY_PLAYLIST_ID" '
+      $1 == id {
+        $1 = ""; sub(/^ - /, "", $0); sub(/\([0-9]+ tracks\)$/, "", $0); print $0
+      }' \
   | xargs)
 
 if [ -z "$playlist_name" ]; then
