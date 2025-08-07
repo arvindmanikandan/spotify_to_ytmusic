@@ -1,0 +1,27 @@
+POST /youtubei/v1/browse?prettyPrint=false HTTP/3
+Host: music.youtube.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/json
+Content-Length: 2530
+Referer: https://music.youtube.com/library
+X-Goog-Visitor-Id: CgtHTkFyMVhFeVVJMCji19LEBjIKCgJJThIEGgAgKw%3D%3D
+X-Youtube-Bootstrap-Logged-In: true
+X-Youtube-Client-Name: 67
+X-Youtube-Client-Version: 1.20250804.03.00
+X-Goog-AuthUser: 1
+X-Origin: https://music.youtube.com
+Origin: https://music.youtube.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Site: same-origin
+Authorization: SAPISIDHASH 1754573795_284e16b82ba44323b62afa2ff593cf5b1a37eb5d_u SAPISID1PHASH 1754573795_284e16b82ba44323b62afa2ff593cf5b1a37eb5d_u SAPISID3PHASH 1754573795_284e16b82ba44323b62afa2ff593cf5b1a37eb5d_u
+Connection: keep-alive
+Alt-Used: music.youtube.com
+Cookie: __Secure-ROLLOUT_TOKEN=CPW94oKp-97tTRCys4TL1LaOAxiisZKyk_iOAw%3D%3D; VISITOR_INFO1_LIVE=GNAr1XEyUI0; VISITOR_PRIVACY_METADATA=CgJJThIEGgAgKw%3D%3D; PREF=f6=80&tz=Asia.Kolkata&f4=4000000&f7=100&repeat=NONE; __Secure-1PSIDTS=sidts-CjUB5H03P0vdhCrF5T24z2-DD0CzEPnUGVaJ_oIGu7Ns04Ag4GTShxXk4NLHOrYSEyN5sUahjRAA; __Secure-3PSIDTS=sidts-CjUB5H03P0vdhCrF5T24z2-DD0CzEPnUGVaJ_oIGu7Ns04Ag4GTShxXk4NLHOrYSEyN5sUahjRAA; HSID=ADRJ-mRWsx1uJUf7O; SSID=AJT06HOwbN75va1VF; APISID=8VJFskqb_r-51w-J/A8Tg7zP15YTMWI3eE; SAPISID=TOgyTIl4PRdf0rOe/ALD5i9jAtBzrYj0BX; __Secure-1PAPISID=TOgyTIl4PRdf0rOe/ALD5i9jAtBzrYj0BX; __Secure-3PAPISID=TOgyTIl4PRdf0rOe/ALD5i9jAtBzrYj0BX; SID=g.a000zwjlNU6JMcuvDVioAGS1GQQa5d0GRl60odWIpedlHQM_apw5AHi9wpOnL4afiGOZUiBWhgACgYKARUSARcSFQHGX2MixxbwksO0c4u3WzhcEusDIRoVAUF8yKqPg35u_KUgkbCtveokSWIX0076; __Secure-1PSID=g.a000zwjlNU6JMcuvDVioAGS1GQQa5d0GRl60odWIpedlHQM_apw5wf1VJGb-AW_eviTDt5LqkQACgYKAQoSARcSFQHGX2Mi5uxci9BaOBeWFaluUN6mpRoVAUF8yKrhsi063B7pc_OCDl2l2dTo0076; __Secure-3PSID=g.a000zwjlNU6JMcuvDVioAGS1GQQa5d0GRl60odWIpedlHQM_apw5BGS8YqduXcmxwzUQCtqRVgACgYKAbYSARcSFQHGX2MiBYhn1cEPKMsDPpeB-SSEXhoVAUF8yKowR3f9jNztwEOoEnu5Q2Xd0076; LOGIN_INFO=AFmmF2swRgIhAMgtiGc2JegPEy1n1RgDALz7NvBhjy_AdAHhuQ4SfPncAiEAjnLZChPDIG3WZwkhqoH0HYu7zBCsf--qMohGUEAAOsc:QUQ3MjNmd1lQazFQVjd3ZUZ4eTZZb3hQQmdIeHNNVzNTX1hXRGFfMG1OM3Z4ME9GNWExd2JHcjRXSVVQMldiWGZvaGpCczM3WE1EdHotUVpvNnpBbFJQNWRlSVhZdmhjQUJfclFjNEVBOUIxWnNfQmMzWjZVVEVrR2h0UlJHLV8tOW95RGdtcWFXTElkeFNKS0VjcENlSk5ncERvcktrOWp3; SIDCC=AKEyXzV-HoXCyV2yPwRrUzpAubZoVZ1PTrDKRhiJaZ8kYIeEgiuID52b8szQh-A8WVjjavERSg; __Secure-1PSIDCC=AKEyXzW_L88bwPJGsgsrTz_kiPfXI75MVn_or8Rnl_ETpsimyjxyRRiVl1Qv32pdh1cmUIMrkt0; __Secure-3PSIDCC=AKEyXzU_Ze47MdE81TUcwRPQdz6x3GLwI_BDIEKFqZcQCbUCPPHbW4ytVEo-El6v7BINVI2VXA; YSC=3pvwwgHuHTY
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+TE: trailers
